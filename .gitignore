@@ -1,32 +1,108 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+/.vs
+/packages
+**/packages
+**/obj
+**/bin
+**/appsettings.json
+**/appsettings.Secret.json
+**/appsettings.Deployment.json
+/Core.API/obj
+/Core.API/bin
+/Core.API/Properties/**
+/Core.API/Core.API.csproj.user
+/Core.API/appsettings.Development.json
+/Core.API/appsettings.json
+/Core.API.Application.Tests/obj
+/Core.API.Application.Tests/bin
+/Core.API.Tests/obj
+/Core.API.Tests/bin
+/Core.API.MessageQueue/obj
+/Core.API.MessageQueue/bin
+/Core.API.MessageQueue.Tests/bin
+/Core.API.MessageQueue.Tests/obj
+/Deployment.Infrastructure.Worker/appsettings.json
+/Deployment.Infrastructure.Worker/bin
+/Deployment.Infrastructure.Worker/obj
+/Deployment.Infrastructure.Worker/appsettings.Development.json
+/Deployment.Infrastructure.Worker/Deployment.Infrastructure.Worker.csproj.user
+/Core.API.Application.Tests/Core.API.Application.Tests.csproj.user
+/Core.API.MessageQueue.Tests/Core.API.MessageQueue.Tests.csproj.user
+/Core.API.Tests/Core.API.Tests.csproj.user
+/Core.API.Application.Tests/Properties/launchSettings.json
+/Core.API.MessageQueue.Tests/Properties/launchSettings.json
+/Core.API.Tests/Properties/launchSettings.json
+/Core/obj
+/Core/bin
+/Core/Core.csproj.user
+/Core/Properties/launchSettings.json
+/Deployment.Infrastructure.Worker/Properties/launchSettings.json
+/Core.API.BlobStorage/bin
+/Core.API.BlobStorage/obj
+/Cloud.Processing/obj
+/Cloud.Processing/bin
+/Deployment.Infrastructure.Worker/.vscode
+/Deployment.Infrastructure.Worker.Tests/appsettings.json
+/Deployment.Infrastructure.Worker.Tests/bin
+/Deployment.Infrastructure.Worker.Tests/obj
+/Deployment.Infrastructure.Worker.Tests/appsettings.Development.json
+/Core.API.Application.Tests/appsettings.json
+/Core.API.Application.Tests/appsettings.Development.json
+/Core.API.BlobStorage.Tests/obj
+/Core.API.BlobStorage.Tests/bin
+/Deployment.Infrastructure.Worker/test.yaml
+/log.txt
+/Core.API.BlobStorage.Tests/appsettings.json
+/Core.API.BlobStorage.Tests/appsettings.Development.json
+/Core/appsettings.Development.json
+/Core/appsettings.json
+/Core.API.TableStorage/obj
+/Core.API.TableStorage/bin
+/Core.API.TableStorage.Tests/appsettings.json
+/Core.API.TableStorage.Tests/appsettings.Development.json
+/Core.API.TableStorage.Tests/obj
+/Core.API.TableStorage.Tests/bin
+.vscode/settings.json
+/Kubernetes/CoreAPI/coreapi-Secret.yaml
+.vscode/launch.json
+.vscode/tasks.json
+/Core.API.Application/bin
+/Core.API.Application/obj
+/Core.API.Tests/appsettings.Development.json
+/Core.API.Tests/appsettings.json
+Kubernetes/Core/windsimcorejob.yaml
+Kubernetes/CoreAPI/Development/coreapi-secret.yaml
+Kubernetes/CoreAPI/Release/coreapi-secret.yaml
+Kubernetes/SEQ/seqlog-secret.yaml
+/AuthenticationServer/AuthenticationServer.csproj.user
+/AuthenticationServer/bin
+/AuthenticationServer/obj
+/AuthenticationServer/Properties
+/AuthenticationServer/appsettings.Development.json
+/AuthenticationServer/appsettings.json
+/AuthenticationServer/tempkey.rsa
+/Core.API.SqlStorage/obj
+/Core.API.SqlStorage/bin
+/Core.API.Model/bin
+/Core.API.Model/obj
+Core.API.SqlStorage/appsettings.json
+/Kubernetes/CoreAPI/Development/cluster-issuer.yaml
+/Kubernetes/Ingress-Basic/cluster-issuer.yaml
+/Kubernetes/Ingress-Basic/coreapi-secret.yaml
+/Kubernetes/CoreAPI/Ingress-Basic/coreapi-secret.yaml
+/Kubernetes/CoreAPI/Ingress-Basic/cluster-issuer.yaml
+.vscode/extensions.json
+/Core.API/publish
+Core.API/Properties/PublishProfiles/windsim-dev01 - Web Deploy.pubxml
+Core.API/Properties/PublishProfiles/windsim-dev01 - Web Deploy.pubxml.user
+Core.API/appsettings-local.json
+Core.API/Properties/PublishProfiles/windsim-core-api-pre-dev - Web Deploy.pubxml.user
+/Core.API/appsettings.bak.json
+Core.API/processors.json
+WindSim.Cloud.CoreShim.Unix/appSettings-logging-seq.json
+/Core.API/Properties/PublishProfiles/*.pubxml
+/Core.API/Properties/PublishProfiles/sewpg-api - Web Deploy.pubxml
+/Core.API/Properties/PublishProfiles/sewpg-api - Web Deploy.pubxml.user
+/Core.API/Properties/PublishProfiles/windsim-core-api-dev - Web Deploy.pubxml
+/Core.API/Properties/PublishProfiles/windsim-core-api-dev - Web Deploy.pubxml.user
+/Core.API/Properties/PublishProfiles/windsim-core-api-dev-staging - Web Deploy.pubxml
+/Core.API/Properties/PublishProfiles/windsim-core-api-dev-staging - Web Deploy.pubxml.user
